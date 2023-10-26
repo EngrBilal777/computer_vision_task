@@ -1,6 +1,6 @@
-# computer_vision_task
+# Computer Vision Tasks
 
-# Hand-Written Digits Classification with TensorFlow CNN
+# Task - 1: Hand-Written Digits Classification with TensorFlow CNN
 This project implements a Convolutional Neural Network (CNN) model from scratch using TensorFlow for image classification. The dataset used for this task consists of hand-written digits with three classes: 0, 1, and 2. The goal is to train a model to classify these digits accurately.
 
 ## Dataset

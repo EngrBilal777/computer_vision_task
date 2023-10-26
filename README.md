@@ -68,8 +68,34 @@ After training of the fine-tuned model, evaluation has been done by checking its
 ### Compare with Task 1: 
 Finally, the accuracy of the fine-tuned model was compared with the accuracy achieved in Task 1.
 
-## Task 3: Image Retrieval System
-#### Overview of the image retrieval system
-#### Pre-trained model selection (e.g., VGG16)
-#### Feature extraction and similarity metric (e.g., Euclidean distance)
-#### Image Retreival
+# Task 3: Image Retrieval System using Pre-trained CNN Models
+In this task, I have built first image retrieval system. This system allows the users to select a query image from a folder and retrieve the top 4 similar images from a local image database. This task showcases to apply CNN-based feature extraction and practical image retrieval system.
+
+## Python Program: 
+This program takes a query image as input and retrieves the top 4 similar images from a local image database. This program utilizes a pre-trained CNN model, such as VGG16 or ResNet, for feature extraction and a similarity metric, like Euclidean distance, for image retrieval.
+
+## Handling Various Image Formats: 
+This program is designed to handle images in various formats, including JPG, PNG, and JPEG. This flexibility ensures that users can work with images in the most common formats without limitations.
+
+## Key Components of Your Image Retrieval System
+### Pre-trained CNN Model: 
+This program uses th epower of pre-trained CNN models for feature extraction. These models are capable of learning and representing complex visual features in images.
+
+### Similarity Metric: 
+Similarity metric, such as Euclidean distance, to calculate the similarity between the query image and images in the database has been used. This metric allows the system to identify the most visually similar images.
+
+### Flexibility: 
+This program is designed to be flexible in handling different image formats, ensuring that users can work with images in their preferred format.
+
+### How to Use the Image Retrieval System
+To run the image retrieval system and demonstrate its functionality, the following steps were followed:
+
+#### Prerequisites: 
+Ensure that the necessary Python libraries are installed, including TensorFlow, OpenCV, and other dependencies used in your program.
+
+#### Prepare Query Images: 
+Places the images to uses as queries in the "query_images" folder.
+
+#### Run the Program: 
+Execute the Python program, which will prompt to select a query image. Once the query image is selected, the program will retrieve and display the top 4 similar images from the database.
+

@@ -44,29 +44,28 @@ Monitor the training process and analyze the validation accuracy to determine th
 After training the model for 10 epochs, the achieved accuracy on the validation set is reported. 
 
 
-# Task 2: Fine-Tuning a Pre-trained Model
-## Fine-tuning a Pre-trained Model for Image Classification
+# Task 2: Fine-tuning a Pre-trained Model for Image Classification
 In this task,fine tuning of the pretrained model have focused on transfer learning, making this task an opportunity to solidify your understanding of transfer learning and how to fine-tune a pre-trained model for your custom dataset. The main objective is to observe the accuracy of the fine-tuned model and compare it with the accuracy achieved in Task 1.
 
-### Task Overview
+## Task Overview
 In Task 1, I have implemented a basic Convolutional Neural Network (CNN) model from scratch for image classification. I have used a dataset with three classes of digits: 0, 1, and 2. The dataset was split into training and validation sets, and I trained the model on these hand-written digits. Data augmentation techniques were applied to improve the model's performance.
 
 For this task, I took a different approach. Instead of building a model from scratch, I have fine-tuned a pre-trained model on the same custom dataset. Fine-tuning was performed by taking a pre-trained model (VGG16 and ResNetRS50).
 
-### Steps to Perform Transfer Learning
-#### Selection of a Pre-trained Model: 
+## Steps to Perform Transfer Learning
+### Selection of a Pre-trained Model: 
 I used VGG16 and ResNetRS50 pre-trained models for image classification. 
 
-#### Prepared the Custom Dataset: 
+### Prepared the Custom Dataset: 
 As in Task 1, I have worked with the same custom dataset containing three classes of digits (0, 1, and 2). I used the same approach of training and validation of dataset.
 
-#### Fine-tuning: 
+### Fine-tuning: 
 The key step was to fine-tune the pre-trained model on the custom dataset. This involved modifying the final layers of the pre-trained model according to current classification task.
 
-#### Model Evaluation: 
+### Model Evaluation: 
 After training of the fine-tuned model, evaluation has been done by checking its accuracy on the validation dataset.
 
-#### Compare with Task 1: 
+### Compare with Task 1: 
 Finally, the accuracy of the fine-tuned model was compared with the accuracy achieved in Task 1.
 
 ## Task 3: Image Retrieval System

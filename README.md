@@ -58,7 +58,7 @@ As in Task 1, I have worked with the same custom dataset containing three classe
 The key step was to fine-tune the pre-trained model on the custom dataset. This involved modifying the final layers of the pre-trained model according to current classification task.
 
 #### Model Evaluation: 
-After training of the fine-tuned model, evaluation has been done by checking its accuracy on the validation dataset.
+After training of the fine-tuned model, evaluation was done by checking its accuracy on the validation dataset.
 
 #### Compare with Task 1: 
 Finally, the accuracy of the fine-tuned model was compared with the accuracy achieved in Task 1.

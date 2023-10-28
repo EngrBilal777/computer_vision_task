@@ -1,6 +1,6 @@
 # Computer Vision Tasks
 
-## Task - 1: Hand-Written Digits Classification with TensorFlow CNN
+## Task 1: Hand-Written Digits Classification with TensorFlow CNN
 This project implemented a Convolutional Neural Network (CNN) model from scratch using TensorFlow for image classification. The dataset used for this task consisted of hand-written digits with three classes: 0, 1, and 2. The goal was to train a model to classify these digits accurately.
 
 ### Dataset
@@ -33,14 +33,14 @@ Data augmentation was performed to enhance the dataset's diversity and robustnes
 The model architecture used for this task was a customizable CNN. Achieving the best possible accuracy was the primary objective while making CNN architecture.
 
 ### Training
-The model was trained on the provided hand-written digits dataset. Training was conducted for 10 epochs by default. The task was evaluated based on the validation accuracy.
+The model was trained on the provided data of hand-written digits dataset. Training was conducted for 10 epochs. The task was evaluated based on the validation accuracy.
 
 ### Results
 After training the model for 10 epochs, the achieved accuracy on the validation set is reported. 
 
 
 ## Task 2: Fine-tuning a Pre-trained Model for Image Classification
-In this task,fine tuning of the pretrained model have focused on transfer learning, making this task an opportunity to solidify  understanding of transfer learning and to fine-tune a pre-trained model for custom dataset. The main objective was to observe the accuracy of the fine-tuned model and compare it with the accuracy achieved in Task 1.
+In this task,fine tuning of the pretrained model have focused on transfer learning, making this task an opportunity to solidify understanding of transfer learning and to fine-tune a pre-trained model for custom dataset. The main objective was to observe the accuracy of the fine-tuned model and compare it with the accuracy achieved in Task 1.
 
 ### Task Overview
 In Task 1, I have implemented a basic Convolutional Neural Network (CNN) model from scratch for image classification. I have used a dataset with three classes of digits: 0, 1, and 2. The dataset was split into training and validation sets, and I trained the model on these hand-written digits. Data augmentation techniques were applied to improve the model's performance.

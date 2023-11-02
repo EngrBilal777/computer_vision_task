@@ -1,3 +1,6 @@
+[![CI](https://github.com/EngrBilal777/computer_vision_task/actions/workflows/main.yml/badge.svg)](https://github.com/EngrBilal777/computer_vision_task/actions/workflows/main.yml)
+
+
 # Computer Vision Tasks
 
 ## Task 1: Hand-Written Digits Classification with TensorFlow CNN
